@@ -1,0 +1,33 @@
+/* GLOBAL */
+
+/* CSS3 */
+#testeList li:last-child a{
+	background-color: #cFF;
+	color: #F00;
+}
+
+#rotate {
+	-moz-transform: rotate(180deg); /* Firefox */
+	-webkit-transform: rotate(180deg); /* for Safari and Chrome */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* IE7+ */
+}
+
+#gradient {
+	background-image: -moz-linear-gradient(top, #81a8cb, #4477a1); /* Firefox */
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #4477a1),color-stop(1, #81a8cb)); /* Safari & Chrome */
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1'); /* IE6 & IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1')"; /* IE8 */
+}
+
+.box-shadow {
+	-moz-box-shadow: 2px 2px 3px #969696; /* for Firefox */
+	-webkit-box-shadow: 2px 2px 3px #969696; /* for Safari and Chrome */
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=3); /* IE7+ */
+}
+
+.box-radius {
+	-moz-border-radius: 32px; /* for Firefox */
+	-webkit-border-radius: 32px; /* for Safari and Chrome */
+	border-radius: 32px; /* IE7+ */
+}
+/* ----------------------------------------- */
